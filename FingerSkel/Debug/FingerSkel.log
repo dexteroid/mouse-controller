@@ -1,0 +1,48 @@
+﻿Build started 21/02/2015 8:49:00 PM.
+     1>Project "C:\Code Repository\mouse-controller\mouse-controller\FingerSkel\FingerSkel.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FingerSkel.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\FingerSkel.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\FingerSkel.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FingerSkel.cpp
+         FingerSkel.cpp
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(214): warning C4244: '=' : conversion from 'pxcF32' to 'int', possible loss of data
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(215): warning C4244: '=' : conversion from 'pxcF32' to 'int', possible loss of data
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(243): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(260): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(263): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(288): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(288): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(296): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(296): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(302): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(302): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(449): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(449): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(477): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(477): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\code repository\mouse-controller\mouse-controller\fingerskel\fingerskel.cpp(519): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\FingerSkel.exe.embed.manifest.res" Debug\FingerSkel_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Code Repository\mouse-controller\mouse-controller\Debug\FingerSkel.exe" /INCREMENTAL /NOLOGO libpxc_d.lib libpxcutils_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\FingerSkel.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Code Repository\mouse-controller\mouse-controller\Debug\FingerSkel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Code Repository\mouse-controller\mouse-controller\Debug\FingerSkel.lib" /MACHINE:X86 Debug\FingerSkel.exe.embed.manifest.res
+         Debug\FingerSkel.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\FingerSkel.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\FingerSkel.exe.embed.manifest" /manifest Debug\FingerSkel.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\FingerSkel.exe.embed.manifest.res" Debug\FingerSkel_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Code Repository\mouse-controller\mouse-controller\Debug\FingerSkel.exe" /INCREMENTAL /NOLOGO libpxc_d.lib libpxcutils_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\FingerSkel.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Code Repository\mouse-controller\mouse-controller\Debug\FingerSkel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Code Repository\mouse-controller\mouse-controller\Debug\FingerSkel.lib" /MACHINE:X86 Debug\FingerSkel.exe.embed.manifest.res
+         Debug\FingerSkel.obj
+         Debug\stdafx.obj
+         FingerSkel.vcxproj -> C:\Code Repository\mouse-controller\mouse-controller\Debug\FingerSkel.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\FingerSkel.unsuccessfulbuild".
+         Touching "Debug\FingerSkel.lastbuildstate".
+     1>Done Building Project "C:\Code Repository\mouse-controller\mouse-controller\FingerSkel\FingerSkel.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.35
